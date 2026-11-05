@@ -216,7 +216,7 @@ section {
 
 .work {
   max-width: none;
-  padding: 120px 64px;
+  padding: 120px 64px 64px;
 }
 
 .work-item {
@@ -645,6 +645,10 @@ body.theme-dark .project-image {
 
 /* ---------- About ---------- */
 
+.about {
+  padding-top: 64px;
+}
+
 .about-row {
   display: flex;
   flex-direction: column;
@@ -903,22 +907,12 @@ body.theme-dark .project-image {
     gap: 32px;
   }
   .about-photo-fan {
-    width: 160px;
-    height: 160px;
-  }
-  .fan-card-middle,
-  .fan-card-back {
-    display: none;
-  }
-  .fan-card-front {
-    left: 0;
-    top: 0;
-    width: 160px;
-    height: 160px;
-  }
-  .about-photo-img {
-    width: 144px;
-    height: 144px;
+    width: 531px;
+    height: 349px;
+    max-width: none;
+    transform: scale(0.62);
+    transform-origin: top left;
+    margin-bottom: -133px;
   }
   .project-hero {
     padding: 140px 24px 32px;
@@ -975,7 +969,10 @@ body.theme-dark .project-image {
     gap: 6px 16px;
   }
   .work-image {
-    display: none;
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+    margin-left: 0;
   }
   .learned-row {
     flex-direction: column;
