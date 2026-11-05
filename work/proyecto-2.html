@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construyendo un design system agéntico — Clara Brodsky</title>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap">
+<link rel="stylesheet" href="../css/style.css?v=12">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="../index.html#top" class="logo">Clara Brodsky</a>
+  <nav class="main-nav">
+    <a href="../index.html#work">Work</a>
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="project-hero">
+    <a href="../index.html#work" class="back-link">← Volver a Work</a>
+
+    <div class="project-hero-row">
+      <div>
+        <span class="eyebrow">Proyecto 02 — 2026</span>
+      </div>
+      <div>
+        <h1 class="project-title">Construyendo un design system agéntico</h1>
+        <p class="project-client">Despegar</p>
+      </div>
+    </div>
+
+    <div class="project-hero-row project-meta-row">
+      <div>Design Ops</div>
+      <div>2026, Despegar · Design System, IA</div>
+    </div>
+  </section>
+
+  <section class="project-block">
+    <div class="project-block-label">
+      <span class="eyebrow">Contexto</span>
+    </div>
+    <div class="project-block-main">
+      <h2>De dónde partió este proyecto</h2>
+      <ul class="project-list">
+        <li>Despegar tiene un design system (EVA UI) en constante evolución, pero escalarlo a pantallas nuevas seguía dependiendo de mucho ida y vuelta manual entre diseño y desarrollo.</li>
+        <li>Gran parte de ese trabajo manual era repetitivo: elegir los componentes correctos, aplicar los tokens correctos, mantener consistencia entre pantallas parecidas.</li>
+        <li>Vimos la oportunidad de usar agentes de IA para automatizar ese tramo repetitivo, sin perder control sobre la calidad ni la fidelidad al design system.</li>
+      </ul>
+      <p class="project-note">Arrancamos este proyecto hace tres meses y lo estamos armando en equipo, con el apoyo de engineering.</p>
+    </div>
+  </section>
+
+  <section class="project-block">
+    <div class="project-block-label">
+      <span class="eyebrow">El desafío</span>
+    </div>
+    <div class="project-block-main">
+      <h2>Escalar el design system sin perder consistencia</h2>
+      <p>El desafío es doble: que cualquier persona del equipo, tenga o no conocimiento técnico, pueda generar pantallas nuevas sin arrancar de cero, y que esas pantallas usen los componentes y tokens reales de EVA UI en vez de interpretaciones libres.</p>
+    </div>
+  </section>
+
+  <section class="project-block">
+    <div class="project-block-label">
+      <span class="eyebrow">La propuesta</span>
+    </div>
+    <div class="project-block-main">
+      <h2>Un sistema de agentes que conoce el design system</h2>
+      <p>Estamos construyendo un conjunto de agentes que, a partir de un Figma o una descripción, generan pantallas usando directamente los componentes y tokens de EVA UI. La regla de base: reusar antes que crear, y priorizar siempre el design system por sobre la interpretación libre.</p>
+    </div>
+  </section>
+
+  <section class="project-block">
+    <div class="project-block-label">
+      <span class="eyebrow">El proceso</span>
+    </div>
+    <div class="project-block-main">
+      <h2>Cómo lo estamos construyendo</h2>
+      <p>Empezamos por mapear qué pantallas se repetían más (hoteles, autos, vuelos, home) y qué reglas tenían que seguir los agentes para no romper el sistema: cuándo reusar un componente tal cual, cuándo componerlo, y cuándo construir algo nuevo con los tokens existentes. Lo vamos iterando en equipo, con el apoyo de engineering, que nos ayuda a mantener la fidelidad técnica entre lo que genera el agente y el código real.</p>
+    </div>
+  </section>
+
+  <section class="project-block">
+    <div class="project-block-label">
+      <span class="eyebrow">Dónde estamos hoy</span>
+    </div>
+    <div class="project-block-main">
+      <h2>Un proyecto en construcción</h2>
+      <ul class="project-list">
+        <li>Llevamos tres meses de trabajo y seguimos iterando; todavía no tenemos métricas cerradas.</li>
+        <li>Ya vemos menos fricción para generar pantallas nuevas que respeten el design system desde el primer intento.</li>
+        <li>Próximo paso: sumar más tipos de pantalla y abrir el sistema a más equipos dentro de Despegar.</li>
+      </ul>
+    </div>
+  </section>
+
+  <a href="proyecto-1.html" class="next-case">
+    <span class="eyebrow">Siguiente caso</span>
+    <h2 class="next-case-title">[Placeholder] Nombre del proyecto 1 <span class="next-case-arrow">→</span></h2>
+  </a>
+
+  <section class="contact">
+    <p class="eyebrow">¿Seguimos charlando?</p>
+    <h2>Gracias por pasar.</h2>
+    <a href="mailto:clarabrodsky@gmail.com">clarabrodsky@gmail.com</a>
+    <div class="socials">
+      <a href="../index.html#work">Ver mas proyectos</a>
+    </div>
+  </section>
+
+</main>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
